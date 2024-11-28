@@ -1,14 +1,13 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Control } from 'react-hook-form';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { FormField, FormItem, FormLabel, FormControl, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 
 interface InputFieldProps {
-  control: Control;
+  control: any;
   name: string;
   label: string;
   type: string;
